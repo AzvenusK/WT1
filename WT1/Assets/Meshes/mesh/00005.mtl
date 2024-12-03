@@ -1,0 +1,9 @@
+newmtl Object_0
+map_Ka ./a74c4aa2-7796-54df-4a92-78fbead10ee6.jpg
+map_Kd ./a74c4aa2-7796-54df-4a92-78fbead10ee6.jpg
+newmtl Object_1
+map_Ka ./e65cc3be-0d85-9918-a16d-07e6c677e0ed.jpg
+map_Kd ./e65cc3be-0d85-9918-a16d-07e6c677e0ed.jpg
+newmtl Object_2
+map_Ka ./6779918d-17b3-cf3d-106d-1975bcece942.jpg
+map_Kd ./6779918d-17b3-cf3d-106d-1975bcece942.jpg

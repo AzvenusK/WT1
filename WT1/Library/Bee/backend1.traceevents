@@ -1,0 +1,353 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1733224972999944, "dur":2487, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733224973002439, "dur":1714, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733224973004272, "dur":166, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1733224973004439, "dur":363, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733224973004816, "dur":26267, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733224973031089, "dur":58965, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733224973090099, "dur":525, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733224973090631, "dur":113, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733224973090751, "dur":212, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733224973090969, "dur":149, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733224973091126, "dur":787, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733224973092007, "dur":27710, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1733224973004992, "dur":26107, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1733224973031101, "dur":58947, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1733224973005061, "dur":26052, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1733224973031116, "dur":671, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\UnityLinker.dll.config" }}
+,{ "pid":12345, "tid":2, "ts":1733224973031787, "dur":711, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\UnityLinker.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733224973032498, "dur":538, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\UnityLinker.deps.json" }}
+,{ "pid":12345, "tid":2, "ts":1733224973033037, "dur":543, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.TinyProfiler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733224973034008, "dur":594, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.Linker.Api.Output.xml" }}
+,{ "pid":12345, "tid":2, "ts":1733224973034602, "dur":552, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.Linker.Api.Output.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733224973035154, "dur":541, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.Linker.Api.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733224973035695, "dur":32983, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Shell.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733224973068678, "dur":6405, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Compile.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733224973075083, "dur":994, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Common35.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733224973076077, "dur":1066, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Common.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733224973077143, "dur":997, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733224973078140, "dur":1195, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733224973079335, "dur":994, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Bee.BuildLogic.WindowsDesktop.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733224973080329, "dur":791, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Bee.BuildLogic.WebGL.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733224973081121, "dur":676, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Bee.BuildLogic.VisionOS.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733224973081797, "dur":504, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Bee.BuildLogic.UniversalWindows.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733224973082301, "dur":558, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Bee.BuildLogic.MacOSX.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733224973082859, "dur":604, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Bee.BuildLogic.Linux.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733224973031116, "dur":52347, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1733224973083464, "dur":7136, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1733224973005176, "dur":25956, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1733224973031134, "dur":667, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Text.Encoding.CodePages.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733224973031801, "dur":715, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.ServiceProcess.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733224973032516, "dur":540, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.ServiceModel.Web.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733224973033056, "dur":579, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Security.SecureString.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733224973033635, "dur":506, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Security.Principal.Windows.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733224973034141, "dur":704, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Security.Principal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733224973035788, "dur":33415, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Security.Cryptography.Primitives.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733224973069204, "dur":6175, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Security.Cryptography.OpenSsl.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733224973075379, "dur":1097, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Security.Cryptography.Encoding.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733224973076476, "dur":820, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Security.Cryptography.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733224973077296, "dur":1258, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Security.Cryptography.Csp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733224973078555, "dur":1112, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Security.Cryptography.Cng.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733224973079667, "dur":858, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Security.Cryptography.Algorithms.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733224973080525, "dur":884, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Security.Claims.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733224973081409, "dur":515, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Security.AccessControl.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733224973081924, "dur":530, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Runtime.Serialization.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733224973082454, "dur":556, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Runtime.Serialization.Primitives.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733224973083010, "dur":539, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Runtime.Serialization.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733224973031134, "dur":52415, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1733224973083550, "dur":7168, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733224973005251, "dur":25940, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733224973031193, "dur":633, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733224973031826, "dur":708, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.Requests.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733224973032534, "dur":541, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.Quic.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733224973033076, "dur":587, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.Primitives.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733224973034160, "dur":696, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.NetworkInformation.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733224973034856, "dur":500, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.NameResolution.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733224973035801, "dur":33411, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.HttpListener.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733224973069213, "dur":6166, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.Http.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733224973075380, "dur":1032, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733224973076412, "dur":830, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733224973077276, "dur":1264, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Memory.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733224973078540, "dur":1121, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Linq.Queryable.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733224973079661, "dur":866, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Linq.Parallel.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733224973080527, "dur":885, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Linq.Expressions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733224973081412, "dur":512, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733224973081924, "dur":526, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.UnmanagedMemoryStream.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733224973082450, "dur":557, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.Pipes.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733224973083007, "dur":538, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.Pipes.AccessControl.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733224973031193, "dur":52353, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733224973085940, "dur":539, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityaot-win32\\Facades\\System.Reflection.Emit.Lightweight.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733224973086479, "dur":636, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityaot-win32\\Facades\\System.Reflection.Emit.ILGeneration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733224973083546, "dur":7379, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733224973005276, "dur":25925, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733224973031204, "dur":631, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733224973031836, "dur":708, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733224973032544, "dur":554, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Diagnostics.Tracing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733224973033099, "dur":580, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Diagnostics.TraceSource.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733224973033679, "dur":559, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Diagnostics.Tools.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733224973034238, "dur":636, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Diagnostics.TextWriterTraceListener.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733224973034874, "dur":559, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Diagnostics.StackTrace.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733224973035905, "dur":33513, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Diagnostics.FileVersionInfo.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733224973069418, "dur":6112, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Diagnostics.DiagnosticSource.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733224973075530, "dur":1069, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Diagnostics.Debug.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733224973076599, "dur":827, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Diagnostics.Contracts.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733224973077426, "dur":1266, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733224973078692, "dur":1074, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733224973079767, "dur":827, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Data.Common.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733224973080594, "dur":882, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733224973081477, "dur":516, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Console.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733224973081993, "dur":529, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733224973082522, "dur":557, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.ComponentModel.TypeConverter.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733224973031203, "dur":52363, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733224973084318, "dur":564, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityaot-win32\\Facades\\System.ComponentModel.TypeConverter.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733224973085679, "dur":521, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityaot-win32\\Facades\\System.ComponentModel.Annotations.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733224973083566, "dur":7527, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1733224973005053, "dur":26052, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1733224973031468, "dur":670, "ph":"X", "name": "File",  "args": { "detail":"B:\\GitHub\\WT1\\WT1\\Library\\PackageCache\\com.unity.ads\\Plugins\\iOS\\UnityAdsLoadListener.h" }}
+,{ "pid":12345, "tid":6, "ts":1733224973032138, "dur":654, "ph":"X", "name": "File",  "args": { "detail":"B:\\GitHub\\WT1\\WT1\\Library\\PackageCache\\com.unity.ads\\Plugins\\iOS\\UnityAdsInitializationListener.h" }}
+,{ "pid":12345, "tid":6, "ts":1733224973032792, "dur":543, "ph":"X", "name": "File",  "args": { "detail":"B:\\GitHub\\WT1\\WT1\\Library\\PackageCache\\com.unity.ads\\Plugins\\iOS\\UnityAdsShowListener.h" }}
+,{ "pid":12345, "tid":6, "ts":1733224973033335, "dur":533, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\libil2cpp\\pch\\pch-c.h" }}
+,{ "pid":12345, "tid":6, "ts":1733224973033868, "dur":500, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\libil2cpp\\pch\\pch-cpp.hpp" }}
+,{ "pid":12345, "tid":6, "ts":1733224973034368, "dur":580, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_il2cpp\\baselib.dll.lib" }}
+,{ "pid":12345, "tid":6, "ts":1733224973034948, "dur":834, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_il2cpp\\baselib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733224973035782, "dur":33308, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\external\\zlib\\adler32.c" }}
+,{ "pid":12345, "tid":6, "ts":1733224973069188, "dur":6180, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\external\\bdwgc\\extra\\gc.c" }}
+,{ "pid":12345, "tid":6, "ts":1733224973075368, "dur":980, "ph":"X", "name": "File",  "args": { "detail":"B:\\GitHub\\WT1\\WT1\\Library\\PackageCache\\com.unity.burst\\.Runtime\\bcl.exe" }}
+,{ "pid":12345, "tid":6, "ts":1733224973076348, "dur":880, "ph":"X", "name": "File",  "args": { "detail":"Library\\BurstCache\\AotSettings_StandaloneWindows.hash" }}
+,{ "pid":12345, "tid":6, "ts":1733224973077228, "dur":1125, "ph":"X", "name": "File",  "args": { "detail":"ProjectSettings\\BurstAotSettings_StandaloneWindows.json" }}
+,{ "pid":12345, "tid":6, "ts":1733224973078353, "dur":1143, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\WindowsBase.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733224973079496, "dur":892, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\UnityLinker.runtimeconfig.json" }}
+,{ "pid":12345, "tid":6, "ts":1733224973080388, "dur":896, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\UnityLinker.exe" }}
+,{ "pid":12345, "tid":6, "ts":1733224973031110, "dur":50174, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1733224973081284, "dur":551, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\Tools\\BuildPipeline\\PlayerBuildProgramLibrary.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733224973081835, "dur":527, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\Tools\\BuildPipeline\\PlayerBuildProgramLibrary.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733224973082362, "dur":560, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\Tools\\BuildPipeline\\NiceIO.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733224973082922, "dur":649, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733224973081284, "dur":8035, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1733224973089319, "dur":2575, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733224973005083, "dur":26037, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733224973031123, "dur":671, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Bee.BuildLogic.iOS.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733224973031794, "dur":715, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Bee.BuildLogic.EmbeddedLinux.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733224973032509, "dur":541, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Bee.BuildLogic.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733224973033050, "dur":577, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Bee.BuildLogic.AppleTV.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733224973033627, "dur":508, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Bee.BuildLogic.Android.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733224973034136, "dur":695, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Api.Output.xml" }}
+,{ "pid":12345, "tid":7, "ts":1733224973035759, "dur":33230, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.Cecil.Awesome.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733224973068990, "dur":6283, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.Api.Attributes.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733224973075273, "dur":922, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Xml.XPath.XDocument.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733224973076195, "dur":1017, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Xml.XPath.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733224973077212, "dur":1113, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Xml.XmlSerializer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733224973078325, "dur":1108, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Xml.XmlDocument.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733224973079433, "dur":948, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Xml.XDocument.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733224973080381, "dur":901, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Xml.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733224973081282, "dur":553, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Xml.ReaderWriter.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733224973081835, "dur":526, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733224973082361, "dur":557, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733224973082919, "dur":598, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Windows.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733224973031123, "dur":52394, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733224973086225, "dur":627, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityaot-win32\\System.Runtime.Serialization.Formatters.Soap.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733224973083517, "dur":7308, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733224973005169, "dur":25957, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733224973031129, "dur":668, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Web.HttpUtility.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733224973031797, "dur":715, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Web.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733224973032512, "dur":540, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.ValueTuple.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733224973033053, "dur":579, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Transactions.Local.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733224973033632, "dur":505, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733224973034137, "dur":699, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Threading.Timer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733224973035781, "dur":33345, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Threading.Tasks.Parallel.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733224973069126, "dur":6201, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Threading.Tasks.Extensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733224973075327, "dur":1022, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Threading.Tasks.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733224973076349, "dur":909, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Threading.Tasks.Dataflow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733224973077258, "dur":1244, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Threading.Overlapped.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733224973078502, "dur":1100, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733224973079602, "dur":861, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Threading.Channels.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733224973080463, "dur":896, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Text.RegularExpressions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733224973081359, "dur":551, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Text.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733224973081910, "dur":523, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Text.Encodings.Web.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733224973082433, "dur":555, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Text.Encoding.Extensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733224973082988, "dur":541, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Text.Encoding.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733224973031128, "dur":52401, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733224973083529, "dur":7121, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1733224973005225, "dur":25955, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1733224973031183, "dur":635, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Runtime.Serialization.Formatters.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733224973031818, "dur":710, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733224973032528, "dur":544, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Runtime.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733224973033072, "dur":589, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Runtime.Loader.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733224973034153, "dur":699, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Runtime.InteropServices.RuntimeInformation.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733224973035795, "dur":33410, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Runtime.Handles.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733224973069206, "dur":6171, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Runtime.Extensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733224973075377, "dur":1033, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733224973076410, "dur":829, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Runtime.CompilerServices.VisualC.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733224973077239, "dur":1216, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Runtime.CompilerServices.Unsafe.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733224973078455, "dur":1111, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Resources.Writer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733224973079566, "dur":891, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Resources.ResourceManager.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733224973080457, "dur":899, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Resources.Reader.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733224973081356, "dur":555, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Reflection.TypeExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733224973081911, "dur":525, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Reflection.Primitives.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733224973082436, "dur":561, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Reflection.Metadata.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733224973082998, "dur":541, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Reflection.Extensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733224973031183, "dur":52356, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1733224973085361, "dur":521, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityaot-win32\\Facades\\System.Security.Cryptography.X509Certificates.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733224973085882, "dur":539, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityaot-win32\\Facades\\System.Security.Cryptography.RandomNumberGenerator.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733224973086831, "dur":604, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityaot-win32\\Facades\\System.Security.Cryptography.ProtectedData.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733224973087435, "dur":562, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityaot-win32\\Facades\\System.Security.Cryptography.Primitives.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733224973087998, "dur":506, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityaot-win32\\Facades\\System.Security.Cryptography.Pkcs.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733224973089461, "dur":557, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityaot-win32\\Facades\\System.Security.Cryptography.Hashing.Algorithms.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733224973090018, "dur":585, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityaot-win32\\Facades\\System.Security.Cryptography.Encryption.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733224973083540, "dur":7889, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1733224973005243, "dur":25943, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1733224973031187, "dur":630, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Reflection.Emit.Lightweight.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733224973031817, "dur":710, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Reflection.Emit.ILGeneration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733224973032527, "dur":541, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Reflection.Emit.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733224973033068, "dur":590, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Reflection.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733224973034154, "dur":693, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Private.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733224973034847, "dur":501, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Private.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733224973035788, "dur":33375, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Private.DataContractSerialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733224973069163, "dur":6161, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Private.CoreLib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733224973075324, "dur":971, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.ObjectModel.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733224973076295, "dur":932, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Numerics.Vectors.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733224973077227, "dur":1188, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733224973078416, "dur":1143, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.WebSockets.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733224973079559, "dur":895, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.WebSockets.Client.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733224973080454, "dur":899, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.WebProxy.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733224973081353, "dur":554, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.WebHeaderCollection.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733224973081907, "dur":526, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.WebClient.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733224973082433, "dur":560, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.Sockets.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733224973082994, "dur":538, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.ServicePoint.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733224973031187, "dur":52345, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1733224973083532, "dur":7130, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1733224973005268, "dur":25929, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1733224973031199, "dur":631, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.MemoryMappedFiles.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733224973031830, "dur":708, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.IsolatedStorage.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733224973032538, "dur":541, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.FileSystem.Watcher.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733224973033079, "dur":588, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.FileSystem.Primitives.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733224973034163, "dur":695, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733224973035805, "dur":33453, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.Compression.ZipFile.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733224973069258, "dur":6140, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.Compression.Native.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733224973075399, "dur":1120, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733224973076519, "dur":790, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733224973077309, "dur":1299, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.Compression.Brotli.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733224973078608, "dur":1093, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Globalization.Extensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733224973079701, "dur":829, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Globalization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733224973080530, "dur":885, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Globalization.Calendars.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733224973081415, "dur":515, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Formats.Tar.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733224973081931, "dur":525, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Formats.Asn1.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733224973082456, "dur":558, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Dynamic.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733224973083014, "dur":539, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Drawing.Primitives.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733224973031199, "dur":52354, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1733224973083904, "dur":665, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityaot-win32\\Facades\\System.IO.FileSystem.AccessControl.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733224973089336, "dur":598, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityaot-win32\\Facades\\System.Diagnostics.FileVersionInfo.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733224973083553, "dur":7532, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1733224973005310, "dur":25897, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1733224973031209, "dur":628, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.ComponentModel.EventBasedAsync.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733224973031837, "dur":704, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.ComponentModel.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733224973032541, "dur":541, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.ComponentModel.DataAnnotations.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733224973033083, "dur":589, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.ComponentModel.Annotations.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733224973034170, "dur":696, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Collections.NonGeneric.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733224973034866, "dur":563, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Collections.Immutable.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733224973035885, "dur":33367, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Collections.Concurrent.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733224973069252, "dur":6139, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Buffers.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733224973075392, "dur":1087, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.AppContext.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733224973076479, "dur":819, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\SharpYaml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733224973077298, "dur":1252, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\NiceIO.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733224973078550, "dur":1113, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733224973079664, "dur":849, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733224973080513, "dur":889, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\msquic.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733224973081403, "dur":518, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\mscorrc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733224973081921, "dur":526, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733224973082447, "dur":557, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\mscordbi.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733224973083004, "dur":539, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\mscordaccore_amd64_amd64_7.0.1323.51816.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733224973031209, "dur":52334, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1733224973084259, "dur":506, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityaot-win32\\Facades\\System.Security.Cryptography.Algorithms.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733224973086080, "dur":589, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityaot-win32\\Facades\\System.Runtime.Serialization.Primitives.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733224973086669, "dur":558, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityaot-win32\\Facades\\System.Runtime.Serialization.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733224973087228, "dur":615, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityaot-win32\\Facades\\System.Runtime.Serialization.Formatters.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733224973089326, "dur":604, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityaot-win32\\Facades\\System.Runtime.InteropServices.RuntimeInformation.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733224973083543, "dur":7728, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1733224973005329, "dur":25884, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1733224973031215, "dur":625, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\mscordaccore.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733224973031840, "dur":707, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\monolinker.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733224973032548, "dur":554, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Mono.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733224973033103, "dur":586, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Mono.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733224973033689, "dur":591, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Mono.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733224973034280, "dur":607, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Mono.Cecil.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733224973034887, "dur":616, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Microsoft.Win32.Registry.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733224973035979, "dur":33516, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Microsoft.VisualBasic.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733224973069495, "dur":6137, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Microsoft.VisualBasic.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733224973075632, "dur":1059, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Microsoft.DiaSymReader.Native.amd64.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733224973076691, "dur":957, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Microsoft.CSharp.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733224973077649, "dur":1368, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Microsoft.Bcl.HashCode.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733224973079017, "dur":955, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\il2cpp.exe" }}
+,{ "pid":12345, "tid":13, "ts":1733224973079973, "dur":759, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\il2cpp.dll.config" }}
+,{ "pid":12345, "tid":13, "ts":1733224973080732, "dur":820, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\il2cpp-compile.runtimeconfig.json" }}
+,{ "pid":12345, "tid":13, "ts":1733224973081552, "dur":514, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\il2cpp-compile.exe" }}
+,{ "pid":12345, "tid":13, "ts":1733224973082067, "dur":532, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\il2cpp-compile.dll" }}
+,{ "pid":12345, "tid":13, "ts":1733224973082599, "dur":557, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\il2cpp-compile.deps.json" }}
+,{ "pid":12345, "tid":13, "ts":1733224973031215, "dur":52381, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1733224973083596, "dur":7117, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1733224973005348, "dur":25871, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1733224973031220, "dur":624, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\hostfxr.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733224973031844, "dur":708, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\createdump.exe" }}
+,{ "pid":12345, "tid":14, "ts":1733224973032552, "dur":549, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\coreclr.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733224973033102, "dur":581, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\clrjit.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733224973033683, "dur":558, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\clrgc.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733224973034241, "dur":637, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\clretwrc.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733224973034878, "dur":562, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.VisualStudioSolution.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733224973035915, "dur":33568, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Tools.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733224973069483, "dur":6090, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.Xcode.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733224973075573, "dur":1042, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.Windows.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733224973076615, "dur":898, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.VisualStudio.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733224973077513, "dur":1304, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.VisionOS.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733224973078818, "dur":991, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.UWP.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733224973079809, "dur":791, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.TvOS.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733224973080600, "dur":884, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.MacOS.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733224973081484, "dur":516, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.LLVM.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733224973082000, "dur":529, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.Linux.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733224973082529, "dur":556, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.IOS.dll" }}
+,{ "pid":12345, "tid":14, "ts":1733224973031220, "dur":52352, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1733224973083572, "dur":7091, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1733224973005367, "dur":25857, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1733224973031226, "dur":618, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.Emscripten.dll" }}
+,{ "pid":12345, "tid":15, "ts":1733224973031844, "dur":711, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.EmbeddedLinux.dll" }}
+,{ "pid":12345, "tid":15, "ts":1733224973032555, "dur":544, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.Android.dll" }}
+,{ "pid":12345, "tid":15, "ts":1733224973033099, "dur":571, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.TinyProfiler2.dll" }}
+,{ "pid":12345, "tid":15, "ts":1733224973034166, "dur":697, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Stevedore.Program.dll" }}
+,{ "pid":12345, "tid":15, "ts":1733224973035823, "dur":33432, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.CSharpSupport.dll" }}
+,{ "pid":12345, "tid":15, "ts":1733224973069255, "dur":6141, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1733224973075396, "dur":1122, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.BinLog.xml" }}
+,{ "pid":12345, "tid":15, "ts":1733224973076518, "dur":786, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.BinLog.dll" }}
+,{ "pid":12345, "tid":15, "ts":1733224973077304, "dur":1252, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.BeeDriver2.dll" }}
+,{ "pid":12345, "tid":15, "ts":1733224973078556, "dur":1139, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Analytics.runtimeconfig.json" }}
+,{ "pid":12345, "tid":15, "ts":1733224973079695, "dur":828, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Analytics.exe" }}
+,{ "pid":12345, "tid":15, "ts":1733224973080524, "dur":876, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Analytics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1733224973081400, "dur":514, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Analytics.deps.json" }}
+,{ "pid":12345, "tid":15, "ts":1733224973081914, "dur":530, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Analytics.Api.Output.xml" }}
+,{ "pid":12345, "tid":15, "ts":1733224973082444, "dur":553, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\il2cpp\\build\\deploy\\Analytics.Api.Output.dll" }}
+,{ "pid":12345, "tid":15, "ts":1733224973082997, "dur":535, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\modules.asset" }}
+,{ "pid":12345, "tid":15, "ts":1733224973031226, "dur":52306, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1733224973086696, "dur":600, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityaot-win32\\Facades\\System.Threading.Tasks.Extensions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1733224973089352, "dur":621, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityaot-win32\\Facades\\System.ServiceProcess.ServiceController.dll" }}
+,{ "pid":12345, "tid":15, "ts":1733224973083533, "dur":7388, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1733224973005388, "dur":25841, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1733224973031229, "dur":658, "ph":"X", "name": "File",  "args": { "detail":"B:\\GitHub\\WT1\\WT1\\Library\\Bee\\artifacts\\UnityLinkerInputs\\EditorToUnityLinkerData.json" }}
+,{ "pid":12345, "tid":16, "ts":1733224973031888, "dur":666, "ph":"X", "name": "File",  "args": { "detail":"B:\\GitHub\\WT1\\WT1\\Temp\\InputSystemLink.xml" }}
+,{ "pid":12345, "tid":16, "ts":1733224973032554, "dur":596, "ph":"X", "name": "File",  "args": { "detail":"B:\\GitHub\\WT1\\WT1\\Library\\com.unity.services.core\\link.xml" }}
+,{ "pid":12345, "tid":16, "ts":1733224973033150, "dur":540, "ph":"X", "name": "File",  "args": { "detail":"B:\\GitHub\\WT1\\WT1\\Library\\Bee\\artifacts\\UnityLinkerInputs\\SerializedTypes.xml" }}
+,{ "pid":12345, "tid":16, "ts":1733224973033690, "dur":555, "ph":"X", "name": "File",  "args": { "detail":"B:\\GitHub\\WT1\\WT1\\Library\\Bee\\artifacts\\UnityLinkerInputs\\TypesInScenes.xml" }}
+,{ "pid":12345, "tid":16, "ts":1733224973034245, "dur":632, "ph":"X", "name": "File",  "args": { "detail":"B:\\GitHub\\WT1\\WT1\\Library\\Bee\\artifacts\\UnityLinkerInputs\\MethodsToPreserve.xml" }}
+,{ "pid":12345, "tid":16, "ts":1733224973034877, "dur":566, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\Tools\\BuildPipeline\\UnityEditor.iOS.Extensions.Xcode.dll" }}
+,{ "pid":12345, "tid":16, "ts":1733224973035912, "dur":33563, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Linker.Api.dll" }}
+,{ "pid":12345, "tid":16, "ts":1733224973069475, "dur":6087, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll" }}
+,{ "pid":12345, "tid":16, "ts":1733224973075562, "dur":1040, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Bee.BuildLogic.dll" }}
+,{ "pid":12345, "tid":16, "ts":1733224973076602, "dur":904, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Api.dll" }}
+,{ "pid":12345, "tid":16, "ts":1733224973077506, "dur":1272, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":16, "ts":1733224973078778, "dur":1034, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":16, "ts":1733224973079812, "dur":792, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":16, "ts":1733224973080604, "dur":883, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.dll" }}
+,{ "pid":12345, "tid":16, "ts":1733224973081487, "dur":513, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Api.Attributes.dll" }}
+,{ "pid":12345, "tid":16, "ts":1733224973082000, "dur":525, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\Tools\\BuildPipeline\\SharpYaml.dll" }}
+,{ "pid":12345, "tid":16, "ts":1733224973082525, "dur":557, "ph":"X", "name": "File",  "args": { "detail":"B:\\Program Files\\6000.0.29f1\\Editor\\Data\\Tools\\BuildPipeline\\ScriptCompilationBuildProgram.exe" }}
+,{ "pid":12345, "tid":16, "ts":1733224973031229, "dur":52339, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1733224973083568, "dur":7081, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733224973129174, "dur":609, "ph":"X", "name": "ProfilerWriteOutput" }
+,
