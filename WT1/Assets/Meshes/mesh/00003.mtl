@@ -1,0 +1,12 @@
+newmtl Object_0
+map_Ka ./61755a61-614a-a011-1261-0e84e4584ec3.jpg
+map_Kd ./61755a61-614a-a011-1261-0e84e4584ec3.jpg
+newmtl Object_1
+map_Ka ./53e770ad-b840-7ff0-9bfc-c02fd862a03c.jpg
+map_Kd ./53e770ad-b840-7ff0-9bfc-c02fd862a03c.jpg
+newmtl Object_2
+map_Ka ./fad9758e-3a93-b6a2-b10f-e63a3845ee37.jpg
+map_Kd ./fad9758e-3a93-b6a2-b10f-e63a3845ee37.jpg
+newmtl Object_3
+map_Ka ./d4176f75-66d7-2686-d2b5-c39ec9799520.jpg
+map_Kd ./d4176f75-66d7-2686-d2b5-c39ec9799520.jpg

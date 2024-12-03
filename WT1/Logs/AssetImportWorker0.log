@@ -247,3 +247,11 @@ Unloading 7234 unused Assets / (6.3 MB). Loaded Objects now: 7916.
 Memory consumption went from 185.7 MB to 179.4 MB.
 Total: 10.719800 ms (FindLiveObjects: 0.655300 ms CreateObjectMapping: 0.573300 ms MarkObjects: 6.788200 ms  DeleteObjects: 2.702000 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 68967.343726 seconds.
+  path: Assets/Meshes/mesh
+  artifactKey: Guid(40942c3fcf91afe43bf489f0e66509b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/mesh using Guid(40942c3fcf91afe43bf489f0e66509b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17359ce4c162254437e7d2b05907b538') in 0.0387822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
